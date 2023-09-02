@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    height: 90px;
+    border-bottom: 3px solid green;
+}
+
+
+
+.container img{
+width: 50px;
+float: left;
+margin: 10px;
+}
+.container .title{
+    float: left;
+    margin: 20px;
+    /* font-size: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgb(174, 173, 173);
+}
+.btns{
+    float: right;
+    margin: 20px;
+}
+.btn1{display:inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(89, 241, 89);
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn2{display:inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(89, 241, 89);
+    padding: 5px;
+    font-size: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.card{ 
+    float: left;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(179, 186, 179);
+    border-radius: 10px;
+  
+}
+main{
+    padding: 80px;
+}
+section{
+    width: 60%;
+    display: inline-block;
+  
+   
+}
+section h2{
+    text-align: center;
+
+}
+.card img{
+    width: 250px;
+    overflow: hidden;
+   
+}
+.card_info{
+    
+    background-color: white;
+}
+
+.card_info .subtitle{
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+.card_info .subtitle2{
+   padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+ .social{  
+    /* display: inline-block;  */
+    border: 3px solid green;
+     float: right;
+
+     width: 30%;
+     border-radius: 10px;
+     /* margin-bottom: 50px; */
+
+ }
+.social img{
+    width: 28%;
+    margin: 7px;
+    cursor: pointer;
+    padding: 5px;
+   
+}
+.social h3{
+    text-align: center;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
